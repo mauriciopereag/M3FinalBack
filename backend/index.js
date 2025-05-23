@@ -18,7 +18,7 @@ const dbConfig = {
     database: process.env.DB_DATABASE,
     port: parseInt(process.env.DB_PORT, 10),
     options: {
-        encrypt: false, // Cambia a true si usas Azure
+        encrypt: false,
         trustServerCertificate: true
     }
 };
@@ -178,7 +178,7 @@ const swaggerDefinition = {
 
 const swaggerOptions = {
   swaggerDefinition,
-  apis: [__filename], // Documenta este archivo
+  apis: [__filename],
 };
 
 const swaggerSpec = swaggerJSDoc(swaggerOptions);
