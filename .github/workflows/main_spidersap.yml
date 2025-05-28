@@ -1,6 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # Updated to use publish profile authentication
+# This workflow builds and deploys a Node.js application to an Azure Web App named 'spidersap'.
 
 name: Build and deploy Node.js app to Azure Web App - spidersap
 
